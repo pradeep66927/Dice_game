@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(36, 35, 35);
+  }
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    font-family: cursive;
+    font-style: italic;
+  }
+  
+  h2 {
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-style: italic;
+  }
+
+  #p1 {
+    text-align: center;
+  }
+  #p2 {
+    text-align: center;
+  }
+  button {
+    */background-color: yellow;
+    border: 2px solid grey;
+    font-size: 22px;
+    padding: 6px;
+    cursor: pointer;
+    font-family: cursive;
+    border-radius: 10px;
+    width: 100px;
+   
+}
+  button:hover {
+    background-color:white;
+    color: black;
+  }
+  .players{
+    width: 55%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .imagebox{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  .btn{
+    text-align: center;
+    margin-top: 50px;
+  }
