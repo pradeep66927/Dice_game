@@ -14,6 +14,6 @@ document.getElementById("start").addEventListener("click", function () {
   });
   
   function makeSound() {
-    let audio = new Audio("image/sound.mp3"); //for sound
+    let audio = new Audio("sound/sound.mp3"); //for sound
     audio.play();
   }
